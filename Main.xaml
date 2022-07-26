@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1182,1081" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1794,2326" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:sd1="clr-namespace:System.Data;assembly=System.Data" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -120,7 +120,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Extraccion de datos" sap:VirtualizedContainerService.HintSize="717,2211" sap2010:WorkflowViewState.IdRef="Sequence_185">
+  <Sequence DisplayName="Extraccion de datos" sap:VirtualizedContainerService.HintSize="720,2261" sap2010:WorkflowViewState.IdRef="Sequence_185">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="currentDate">
         <Variable.Default>
@@ -175,7 +175,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="675,2119" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="678,2169" sap2010:WorkflowViewState.IdRef="TryCatch_6">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -183,20 +183,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="637,1892" sap2010:WorkflowViewState.IdRef="Sequence_108">
+        <Sequence sap:VirtualizedContainerService.HintSize="640,1942" sap2010:WorkflowViewState.IdRef="Sequence_108">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <umab:OutlookApplicationCard Account="marcos.tulli@softtek.com" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Envia Mail Inicio del bot" sap:VirtualizedContainerService.HintSize="595,78" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
+          <umab:OutlookApplicationCard Account="marcos.tulli@softtek.com" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Envia Mail Inicio del bot" sap:VirtualizedContainerService.HintSize="598,78" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
             <umab:OutlookApplicationCard.Body>
               <ActivityAction x:TypeArguments="um:IMailQuickHandle">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Outlook" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,461" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,462" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -244,14 +244,14 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </umab:OutlookApplicationCard>
-          <Sequence DisplayName="Crea Carpeta Diaria" sap:VirtualizedContainerService.HintSize="595,1261" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <Sequence DisplayName="Crea Carpeta Diaria" sap:VirtualizedContainerService.HintSize="598,1311" sap2010:WorkflowViewState.IdRef="Sequence_14">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="553,1169" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="556,1219" sap2010:WorkflowViewState.IdRef="TryCatch_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -259,21 +259,21 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence sap:VirtualizedContainerService.HintSize="515,942" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                <Sequence sap:VirtualizedContainerService.HintSize="518,992" sap2010:WorkflowViewState.IdRef="Sequence_87">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="getHome y asigna paths" sap:VirtualizedContainerService.HintSize="473,562" sap2010:WorkflowViewState.IdRef="Sequence_192">
+                  <Sequence DisplayName="getHome y asigna paths" sap:VirtualizedContainerService.HintSize="476,66" sap2010:WorkflowViewState.IdRef="Sequence_192">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:GetEnvironmentFolder DisplayName="Get Environment Folder" sap:VirtualizedContainerService.HintSize="431,51" sap2010:WorkflowViewState.IdRef="GetEnvironmentFolder_4" SpecialFolder="UserProfile">
+                    <ui:GetEnvironmentFolder DisplayName="Get Environment Folder" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="GetEnvironmentFolder_4" SpecialFolder="UserProfile">
                       <ui:GetEnvironmentFolder.FolderPath>
                         <OutArgument x:TypeArguments="x:String">
                           <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_61">user</mca:CSharpReference>
@@ -286,7 +286,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:GetEnvironmentFolder>
-                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="431,379" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
                       <ui:MultipleAssign.AssignOperations>
                         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
                           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -405,7 +405,7 @@
                             </ui:AssignOperation.To>
                             <ui:AssignOperation.Value>
                               <InArgument x:TypeArguments="x:String">
-                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_548" xml:space="preserve">user  + "\\Documents\\Extraccion de datos\\Templates\\Reporte.xlsx"</mca:CSharpValue>
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_552" xml:space="preserve">user  + "\\Documents\\Extraccion de datos\\Templates\\Template Reporte.xlsx"</mca:CSharpValue>
                               </InArgument>
                             </ui:AssignOperation.Value>
                           </ui:AssignOperation>
@@ -413,13 +413,13 @@
                       </ui:MultipleAssign.AssignOperations>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:MultipleAssign>
                   </Sequence>
-                  <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="473,51" sap2010:WorkflowViewState.IdRef="CreateDirectory_1">
+                  <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="476,51" sap2010:WorkflowViewState.IdRef="CreateDirectory_1">
                     <ui:CreateDirectory.Path>
                       <InArgument x:TypeArguments="x:String">
                         <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_221">pathCarpetaDiaria</mca:CSharpValue>
@@ -432,17 +432,17 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CreateDirectory>
-                  <Sequence DisplayName="copia archivos" sap:VirtualizedContainerService.HintSize="473,66" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                  <Sequence DisplayName="copia archivos" sap:VirtualizedContainerService.HintSize="476,612" sap2010:WorkflowViewState.IdRef="Sequence_84">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Boolean" Name="logExiste" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:CopyFile ContinueOnError="{x:Null}" DisplayName="Copia Reporte " sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CopyFile_1">
+                    <ui:CopyFile ContinueOnError="{x:Null}" DisplayName="Copia Reporte " sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="CopyFile_1">
                       <ui:CopyFile.Destination>
                         <InArgument x:TypeArguments="x:String">
                           <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">pathCarpetaDiaria</mca:CSharpValue>
@@ -455,15 +455,15 @@
                       </ui:CopyFile.Path>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CopyFile>
-                    <ui:RenameFileX DisplayName="Renombra Reporte" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="RenameFileX_1" KeepExtension="True">
+                    <ui:RenameFileX DisplayName="Renombra Reporte" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="RenameFileX_1" KeepExtension="True">
                       <ui:RenameFileX.FilePath>
                         <InArgument x:TypeArguments="x:String">
-                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_550">pathCarpetaDiaria + "\\Reporte.xlsx"</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_553">pathCarpetaDiaria + "\\Template Reporte.xlsx"</mca:CSharpValue>
                         </InArgument>
                       </ui:RenameFileX.FilePath>
                       <ui:RenameFileX.NewName>
@@ -473,12 +473,12 @@
                       </ui:RenameFileX.NewName>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:RenameFileX>
-                    <ui:CopyFile ContinueOnError="{x:Null}" DisplayName="Copia Log" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CopyFile_2">
+                    <ui:CopyFile ContinueOnError="{x:Null}" DisplayName="Copia Log" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="CopyFile_2">
                       <ui:CopyFile.Destination>
                         <InArgument x:TypeArguments="x:String">
                           <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">pathCarpetaDiaria</mca:CSharpValue>
@@ -496,7 +496,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:CopyFile>
-                    <ui:RenameFileX DisplayName="Renombra Log" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="RenameFileX_2" KeepExtension="True">
+                    <ui:RenameFileX DisplayName="Renombra Log" sap:VirtualizedContainerService.HintSize="434,51" sap2010:WorkflowViewState.IdRef="RenameFileX_2" KeepExtension="True">
                       <ui:RenameFileX.FilePath>
                         <InArgument x:TypeArguments="x:String">
                           <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">pathCarpetaDiaria + "\\Log.xlsx"</mca:CSharpValue>
@@ -515,7 +515,7 @@
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:RenameFileX>
                   </Sequence>
-                  <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Actualiza Log" sap:VirtualizedContainerService.HintSize="473,51" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+                  <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Actualiza Log" sap:VirtualizedContainerService.HintSize="476,51" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
                     <ueab:ExcelProcessScopeX.Body>
                       <ActivityAction x:TypeArguments="ui:IExcelProcess">
                         <ActivityAction.Argument>
@@ -605,7 +605,7 @@
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="519,21" sap2010:WorkflowViewState.IdRef="Catch`1_4">
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="522,21" sap2010:WorkflowViewState.IdRef="Catch`1_4">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -642,7 +642,7 @@
               </TryCatch.Catches>
             </TryCatch>
           </Sequence>
-          <Sequence DisplayName="Extraer_Datos" sap:VirtualizedContainerService.HintSize="595,66" sap2010:WorkflowViewState.IdRef="Sequence_21">
+          <Sequence DisplayName="Extraer_Datos" sap:VirtualizedContainerService.HintSize="598,66" sap2010:WorkflowViewState.IdRef="Sequence_21">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2766,7 +2766,7 @@
               </TryCatch.Catches>
             </TryCatch>
           </Sequence>
-          <Sequence DisplayName="Guarda_Datos" sap:VirtualizedContainerService.HintSize="595,66" sap2010:WorkflowViewState.IdRef="Sequence_24">
+          <Sequence DisplayName="Guarda_Datos" sap:VirtualizedContainerService.HintSize="598,66" sap2010:WorkflowViewState.IdRef="Sequence_24">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2879,7 +2879,7 @@
               </sap:WorkflowViewStateService.ViewState>
             </ueab:ExcelProcessScopeX>
           </Sequence>
-          <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Actualiza estado de Log" sap:VirtualizedContainerService.HintSize="595,51" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_12">
+          <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Actualiza estado de Log" sap:VirtualizedContainerService.HintSize="598,51" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_12">
             <ueab:ExcelProcessScopeX.Body>
               <ActivityAction x:TypeArguments="ui:IExcelProcess">
                 <ActivityAction.Argument>
@@ -2955,7 +2955,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ueab:ExcelProcessScopeX>
-          <umab:OutlookApplicationCard Account="marcos.tulli@softtek.com" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Envio final de ejecucion" sap:VirtualizedContainerService.HintSize="595,78" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_2">
+          <umab:OutlookApplicationCard Account="marcos.tulli@softtek.com" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Envio final de ejecucion" sap:VirtualizedContainerService.HintSize="598,78" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_2">
             <umab:OutlookApplicationCard.Body>
               <ActivityAction x:TypeArguments="um:IMailQuickHandle">
                 <ActivityAction.Argument>
@@ -3019,7 +3019,7 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_6">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="644,21" sap2010:WorkflowViewState.IdRef="Catch`1_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3030,7 +3030,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_112">
+            <Sequence sap:VirtualizedContainerService.HintSize="242,66" sap2010:WorkflowViewState.IdRef="Sequence_112">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
